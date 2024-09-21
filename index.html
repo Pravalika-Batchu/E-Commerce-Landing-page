@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A sleek eCommerce landing page for a product.">
+    <title>eCommerce Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Header Section: Product Name -->
+    <header>
+        <h1>Amazing Smartwatch</h1>
+    </header>
+
+    <!-- Main Product Section: Image, Description, Pricing, CTA -->
+    <section class="product-info">
+        <div class="product-images">
+            <div class="image-slider">
+            <button class="prev" onclick="changeImage(-1)">&#10094;</button>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSrqxrprWrFC9t37p-YYk_n-jaKTI8jc-VPw&s"alt="smartwatch Image" class="main-image" id="product-image">
+            <button class="next" onclick="changeImage(1)">&#10095;</button>
+            </div>
+        </div>
+        <div class="product-details">
+            <p class="description">This stylish and modern smartwatch is your perfect fitness companion. Track your steps, monitor heart rate, and receive notifications seamlessly.</p>
+            <p class="price">$199.99</p>
+            <button class="cta-btn">Add to Cart</button>
+        </div>
+    </section>
+
+    <!-- Links Section: Learn More, Contact Us -->
+    <section class="links">
+        <a href="#learn-more">Learn More</a> | <a href="#contact-us">Contact Us</a>
+    </section>
+
+    <!-- Social Media Links -->
+    <section class="social-media">
+        <a href="https://www.facebook.com" target="_blank">Facebook</a> | 
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+    </section>
+
+    <!-- Optional: Customer Reviews and Newsletter Signup -->
+    <section class="customer-reviews">
+        <h2>Customer Reviews</h2>
+        <ul>
+            <li>"This smartwatch is amazing! Great design and functionality." - Amit</li>
+            <li>"The battery life is impressive, and it syncs perfectly with my phone." - Geetha</li>
+        </ul>
+    </section>
+
+    <section class="newsletter">
+        <h2>Sign up for our newsletter</h2>
+        <form>
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 SmartTech. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
